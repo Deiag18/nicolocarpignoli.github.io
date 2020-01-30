@@ -16,8 +16,8 @@
              <video id="duane" src="duane.mp4"></video>
         </a-assets>
 
-        <a-marker type='barcode' value='7'>
-            <a-video duane></a-video>
+        <a-marker id="duane" type='barcode' value='7'>
+           <a-entity geometry="primitive: plane" material="src: #duane"></a-entity>
         </a-marker>
 
         <a-marker id="animated-marker" type='barcode' value='6'>
